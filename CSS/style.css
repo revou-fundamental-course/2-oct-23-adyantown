@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.converter {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+}
+
+select,
+input,
+input[type='number'],
+input[type='submit'] {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type='submit'] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#result,
+#formula {
+    margin: 20px 0;
+}
+
+.footer {
+    margin-top: auto;
+    color: #333;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+ul {
+    list-style-type: none;
+}
+p {
+    font-weight: bold;
+}
+
